@@ -2,6 +2,13 @@
 
 Courtesy of https://twitter.com/Alra3ees and a set of tweets starting here: https://twitter.com/Alra3ees/status/1738483582618743245
 
+
+## Bug Bounty Dumps
+Data dumps of Hackerone and Bugcrowd scopes 
+
+https://github.com/arkadiyt/bounty-targets-data/
+
+
 ## Bug Bounty Google Dorks
 
 ```
@@ -19,11 +26,12 @@ intext:"The amount of the reward will be determined based on the severity"
 ## Find bug bounty programs that running on @intigriti and @yeswehack  via waybackurls
 
 ```shell
-waybackurls app.intigriti.com/researcher/pro… | grep /programs/
+waybackurls app.intigriti.com/researcher/programs/ | grep /programs/
+
 ```
 
 ```shell
-waybackurls app.intigriti.com/researcher/pro… | grep /project/
+waybackurls app.intigriti.com/researcher/project | grep /project/
 ```
 
 ```shell
